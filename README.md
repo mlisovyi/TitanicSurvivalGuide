@@ -6,8 +6,9 @@ Data samples are available on the competition web page.
 ### Package overview
 
 There are several notebooks provided: 
-  * EDA + feature extraction (used to create derived datasets)
-  * a comparison of performance for different models
+  * [EDA + feature extraction](EDA_feature_extraction.ipynb) (used to create derived datasets)
+  * [comparison of performance for different models](Model_Comparison.ipynb) 
+    (fora simple comparison using train/valid split or sross validation with a pipe of feature transformers)
   * more to come...
 
 ### Environment setup
