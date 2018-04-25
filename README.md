@@ -17,7 +17,7 @@ The notebooks are developed in python3.6, but will most likely work in any pytho
 All of those can be installed with conda (either mini- or ana-).
 Just do something like
 ```bash
-conda install numpy pandas matplotlib seaborn scikit-learn ipykernel jupyther xgboost lightgbm
+conda install numpy pandas matplotlib seaborn scikit-learn ipykernel jupyter xgboost lightgbm
 ```
 You might need to add conda-forge to the list of channels: `conda config --add channels conda-forge`,
 if you have not done so yet (the installation would fail complaining that a subset of modules can not be found).
