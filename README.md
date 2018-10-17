@@ -33,12 +33,9 @@ if you have not done so yet (the installation would fail complaining that a subs
 If you want to try the Vowpal Wabbit (https://github.com/JohnLangford/vowpal_wabbit) for classification,
 you will need to play additional tricks: read and follow the instructions on their 
 [README of the python package](https://github.com/JohnLangford/vowpal_wabbit/blob/master/python/README.rst).
-In practice, on a Linux system you will need to:
-   * use a conda environment **with python3.5**. 
-     I did not manage to make it work in python3.6;
-   * `apt-get install libboost-program-options-dev zlib1g-dev libboost-python-dev` 
-     I'm not sure how relevant this is, though;
+In practice, on a Linux system  with conda installed you will need to:
+   * use a conda environment **with python3.5 or python3.6**;
    * `conda install -c anaconda boost` this is important, as it installs a series of boost packages, 
      that are compatible with your conda environment (i.e. python version);
    * `pip install vowpalwabbit` intall the python binding + the cython library of the VW itself.
-   This procedure has been tested on Ubuntu 16.04 with a python3.5 environment in anaconda2 and geting VW 8.5.0 from pypi
+   This procedure has been tested on Ubuntu 16.04 and 18.04 with a python3.5 and python3.6 environments in conda and geting VW from github.
