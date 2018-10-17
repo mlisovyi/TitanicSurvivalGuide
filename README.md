@@ -7,9 +7,16 @@ Data samples are available on the competition web page.
 
 There are several notebooks provided: 
   * [EDA + feature extraction](EDA_feature_extraction.ipynb) (used to create derived datasets)
-  * [comparison of performance for different models](Model_Comparison.ipynb) 
-    (for a simple comparison using train/valid split or sross validation with a pipe of feature transformers)
-  * more to come...
+  * [detailed comparison of LightGBM vs XGBoost with different preprocessing](Model_Comparison.ipynb) 
+    (an extensive performance comparison using train/valid split as well as cross validation 
+    with various models and feature transformers)
+  * [basic comparison of LightGBM vs XGBoost](Kernel_Basic_LGB_XGB.ipynb) (a bsaic comparison of different models. 
+  This is also available as a kaggle kernel: https://www.kaggle.com/mlisovyi/lightgbm-vs-xgboost-sklearn-api)
+  * [Hyper-parameter optimisation of XGBoost and LightGBM models](GBT_LightGBM_XGBoost.ipynb)
+  * [Example of linear model based on text features using Vowpal Wabbit](VW_basic_text.ipynb) (This is also available as a kaggle kernel: https://www.kaggle.com/mlisovyi/vowpal-wabbit-decides-who-lives-and-who-dies)
+  * [Submission preparation](Prepare_Submission.ipynb)
+  
+If notebooks are not rendered, when you open then from github in your browser, you can view them using https://nbviewer.jupyter.org/
 
 ### Environment setup
 
